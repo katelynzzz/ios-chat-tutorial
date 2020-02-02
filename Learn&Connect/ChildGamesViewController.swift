@@ -14,6 +14,11 @@ class ChildGamesViewController: UIViewController{
         self.performSegue(withIdentifier: "AdditionwithFive", sender: self)
     }
     
+    @IBAction func AdditionTenButton(_ sender: AnyObject) {
+        self.performSegue(withIdentifier: "AdditionWithTen", sender: self)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

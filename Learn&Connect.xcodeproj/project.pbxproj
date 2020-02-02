@@ -16,10 +16,11 @@
 		2907F4AC23E676A9005DC415 /* ThirdScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F4A423E676A9005DC415 /* ThirdScreenViewController.swift */; };
 		293EFAFD23E681C900230337 /* ParentChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293EFAFC23E681C900230337 /* ParentChatViewController.swift */; };
 		293EFAFF23E6884500230337 /* ChildGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293EFAFE23E6884500230337 /* ChildGamesViewController.swift */; };
+		293EFB0323E6971D00230337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293EFB0223E6971D00230337 /* Main.storyboard */; };
+		293EFB0523E69D0200230337 /* AddTenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293EFB0423E69D0200230337 /* AddTenViewController.swift */; };
 		3BD6B23DDC53C21E88612791 /* Pods_ScaledroneChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082CBBE5F5A8D8EF116B16E4 /* Pods_ScaledroneChat.framework */; };
 		F51FC96A2143A823001F9009 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FC9692143A823001F9009 /* AppDelegate.swift */; };
 		F51FC96C2143A823001F9009 /* ChildChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FC96B2143A823001F9009 /* ChildChatViewController.swift */; };
-		F51FC96F2143A823001F9009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51FC96D2143A823001F9009 /* Main.storyboard */; };
 		F51FC9712143A824001F9009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51FC9702143A824001F9009 /* Assets.xcassets */; };
 		F51FC9742143A824001F9009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51FC9722143A824001F9009 /* LaunchScreen.storyboard */; };
 		F51FC97C2143A8E5001F9009 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FC97B2143A8E5001F9009 /* Message.swift */; };
@@ -39,6 +40,8 @@
 		2907F4A423E676A9005DC415 /* ThirdScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdScreenViewController.swift; path = ../../GIThackSC/Connect/ThirdScreenViewController.swift; sourceTree = "<group>"; };
 		293EFAFC23E681C900230337 /* ParentChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentChatViewController.swift; sourceTree = "<group>"; };
 		293EFAFE23E6884500230337 /* ChildGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildGamesViewController.swift; sourceTree = "<group>"; };
+		293EFB0223E6971D00230337 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		293EFB0423E69D0200230337 /* AddTenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTenViewController.swift; sourceTree = "<group>"; };
 		3A765884C06B9D44D62F85BE /* Pods-ScaledroneChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaledroneChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaledroneChat/Pods-ScaledroneChat.debug.xcconfig"; sourceTree = "<group>"; };
 		6F129B3DA0100A4D961A4F53 /* Pods_ScaledroneChatTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScaledroneChatTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDD2FBD26B14939767C3E1A /* Pods-ScaledroneChatTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaledroneChatTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaledroneChatTest/Pods-ScaledroneChatTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +49,6 @@
 		F51FC9662143A823001F9009 /* Learn&Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn&Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51FC9692143A823001F9009 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Learn&Connect/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
 		F51FC96B2143A823001F9009 /* ChildChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildChatViewController.swift; sourceTree = "<group>"; };
-		F51FC96E2143A823001F9009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F51FC9702143A824001F9009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F51FC9732143A824001F9009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F51FC9752143A824001F9009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,9 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				F51FC9692143A823001F9009 /* AppDelegate.swift */,
+				293EFB0223E6971D00230337 /* Main.storyboard */,
+				293EFB0423E69D0200230337 /* AddTenViewController.swift */,
 				F51FC96B2143A823001F9009 /* ChildChatViewController.swift */,
 				293EFAFC23E681C900230337 /* ParentChatViewController.swift */,
-				F51FC96D2143A823001F9009 /* Main.storyboard */,
 				2907F4A223E676A8005DC415 /* ChildGameViewController.swift */,
 				293EFAFE23E6884500230337 /* ChildGamesViewController.swift */,
 				2907F4A323E676A8005DC415 /* ChildViewController.swift */,
@@ -192,7 +195,7 @@
 			files = (
 				F51FC9742143A824001F9009 /* LaunchScreen.storyboard in Resources */,
 				F51FC9712143A824001F9009 /* Assets.xcassets in Resources */,
-				F51FC96F2143A823001F9009 /* Main.storyboard in Resources */,
+				293EFB0323E6971D00230337 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				293EFB0523E69D0200230337 /* AddTenViewController.swift in Sources */,
 				F51FC97C2143A8E5001F9009 /* Message.swift in Sources */,
 				F51FC96C2143A823001F9009 /* ChildChatViewController.swift in Sources */,
 				F51FC96A2143A823001F9009 /* AppDelegate.swift in Sources */,
@@ -266,14 +270,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F51FC96D2143A823001F9009 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F51FC96E2143A823001F9009 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F51FC9722143A824001F9009 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
