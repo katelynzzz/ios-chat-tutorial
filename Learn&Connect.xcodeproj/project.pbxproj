@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2907F4A623E676A9005DC415 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F49E23E676A8005DC415 /* String.swift */; };
+		2907F4A723E676A9005DC415 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F49F23E676A8005DC415 /* SecondScreenViewController.swift */; };
+		2907F4A823E676A9005DC415 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F4A023E676A8005DC415 /* HomeViewController.swift */; };
+		2907F4A923E676A9005DC415 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F4A123E676A8005DC415 /* ParentViewController.swift */; };
+		2907F4AA23E676A9005DC415 /* ChildGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F4A223E676A8005DC415 /* ChildGameViewController.swift */; };
+		2907F4AB23E676A9005DC415 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F4A323E676A8005DC415 /* ChildViewController.swift */; };
+		2907F4AC23E676A9005DC415 /* ThirdScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F4A423E676A9005DC415 /* ThirdScreenViewController.swift */; };
+		293EFAFD23E681C900230337 /* ParentChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293EFAFC23E681C900230337 /* ParentChatViewController.swift */; };
+		293EFAFF23E6884500230337 /* ChildGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293EFAFE23E6884500230337 /* ChildGamesViewController.swift */; };
 		3BD6B23DDC53C21E88612791 /* Pods_ScaledroneChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082CBBE5F5A8D8EF116B16E4 /* Pods_ScaledroneChat.framework */; };
 		F51FC96A2143A823001F9009 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FC9692143A823001F9009 /* AppDelegate.swift */; };
-		F51FC96C2143A823001F9009 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FC96B2143A823001F9009 /* ViewController.swift */; };
+		F51FC96C2143A823001F9009 /* ChildChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FC96B2143A823001F9009 /* ChildChatViewController.swift */; };
 		F51FC96F2143A823001F9009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51FC96D2143A823001F9009 /* Main.storyboard */; };
 		F51FC9712143A824001F9009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51FC9702143A824001F9009 /* Assets.xcassets */; };
 		F51FC9742143A824001F9009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51FC9722143A824001F9009 /* LaunchScreen.storyboard */; };
@@ -21,13 +30,22 @@
 /* Begin PBXFileReference section */
 		082CBBE5F5A8D8EF116B16E4 /* Pods_ScaledroneChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScaledroneChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC9838E5C4B2D4A33AE4847 /* Pods-ScaledroneChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaledroneChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScaledroneChat/Pods-ScaledroneChat.release.xcconfig"; sourceTree = "<group>"; };
+		2907F49E23E676A8005DC415 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = String.swift; path = ../../GIThackSC/Connect/String.swift; sourceTree = "<group>"; };
+		2907F49F23E676A8005DC415 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondScreenViewController.swift; path = ../../GIThackSC/Connect/SecondScreenViewController.swift; sourceTree = "<group>"; };
+		2907F4A023E676A8005DC415 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../GIThackSC/Connect/HomeViewController.swift; sourceTree = "<group>"; };
+		2907F4A123E676A8005DC415 /* ParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParentViewController.swift; path = ../../GIThackSC/Connect/ParentViewController.swift; sourceTree = "<group>"; };
+		2907F4A223E676A8005DC415 /* ChildGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildGameViewController.swift; path = ../../GIThackSC/Connect/ChildGameViewController.swift; sourceTree = "<group>"; };
+		2907F4A323E676A8005DC415 /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildViewController.swift; path = ../../GIThackSC/Connect/ChildViewController.swift; sourceTree = "<group>"; };
+		2907F4A423E676A9005DC415 /* ThirdScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdScreenViewController.swift; path = ../../GIThackSC/Connect/ThirdScreenViewController.swift; sourceTree = "<group>"; };
+		293EFAFC23E681C900230337 /* ParentChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentChatViewController.swift; sourceTree = "<group>"; };
+		293EFAFE23E6884500230337 /* ChildGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildGamesViewController.swift; sourceTree = "<group>"; };
 		3A765884C06B9D44D62F85BE /* Pods-ScaledroneChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaledroneChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaledroneChat/Pods-ScaledroneChat.debug.xcconfig"; sourceTree = "<group>"; };
 		6F129B3DA0100A4D961A4F53 /* Pods_ScaledroneChatTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScaledroneChatTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDD2FBD26B14939767C3E1A /* Pods-ScaledroneChatTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaledroneChatTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaledroneChatTest/Pods-ScaledroneChatTest.debug.xcconfig"; sourceTree = "<group>"; };
 		E0DC8D108C38EC38D898977F /* Pods-ScaledroneChatTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaledroneChatTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScaledroneChatTest/Pods-ScaledroneChatTest.release.xcconfig"; sourceTree = "<group>"; };
-		F51FC9662143A823001F9009 /* ScaledroneChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaledroneChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51FC9662143A823001F9009 /* Learn&Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn&Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51FC9692143A823001F9009 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F51FC96B2143A823001F9009 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F51FC96B2143A823001F9009 /* ChildChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildChatViewController.swift; sourceTree = "<group>"; };
 		F51FC96E2143A823001F9009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F51FC9702143A824001F9009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F51FC9732143A824001F9009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,7 +90,7 @@
 		F51FC95D2143A823001F9009 = {
 			isa = PBXGroup;
 			children = (
-				F51FC9682143A823001F9009 /* ScaledroneChat */,
+				F51FC9682143A823001F9009 /* Learn&Connect */,
 				F51FC9672143A823001F9009 /* Products */,
 				9981FBA92B24414C9D45DFAE /* Pods */,
 				A6D63C0695B38B159CBC17AF /* Frameworks */,
@@ -82,17 +100,26 @@
 		F51FC9672143A823001F9009 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F51FC9662143A823001F9009 /* ScaledroneChat.app */,
+				F51FC9662143A823001F9009 /* Learn&Connect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F51FC9682143A823001F9009 /* ScaledroneChat */ = {
+		F51FC9682143A823001F9009 /* Learn&Connect */ = {
 			isa = PBXGroup;
 			children = (
 				F51FC9692143A823001F9009 /* AppDelegate.swift */,
-				F51FC96B2143A823001F9009 /* ViewController.swift */,
+				F51FC96B2143A823001F9009 /* ChildChatViewController.swift */,
+				293EFAFC23E681C900230337 /* ParentChatViewController.swift */,
 				F51FC96D2143A823001F9009 /* Main.storyboard */,
+				2907F4A223E676A8005DC415 /* ChildGameViewController.swift */,
+				293EFAFE23E6884500230337 /* ChildGamesViewController.swift */,
+				2907F4A323E676A8005DC415 /* ChildViewController.swift */,
+				2907F4A023E676A8005DC415 /* HomeViewController.swift */,
+				2907F4A123E676A8005DC415 /* ParentViewController.swift */,
+				2907F49F23E676A8005DC415 /* SecondScreenViewController.swift */,
+				2907F49E23E676A8005DC415 /* String.swift */,
+				2907F4A423E676A9005DC415 /* ThirdScreenViewController.swift */,
 				F51FC9702143A824001F9009 /* Assets.xcassets */,
 				F51FC9722143A824001F9009 /* LaunchScreen.storyboard */,
 				F51FC9752143A824001F9009 /* Info.plist */,
@@ -100,15 +127,15 @@
 				F51FC97D2143AC63001F9009 /* Extensions.swift */,
 				F51FC97F2143AD46001F9009 /* ChatService.swift */,
 			);
-			path = ScaledroneChat;
+			path = "Learn&Connect";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F51FC9652143A823001F9009 /* ScaledroneChat */ = {
+		F51FC9652143A823001F9009 /* Learn&Connect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F51FC9782143A824001F9009 /* Build configuration list for PBXNativeTarget "ScaledroneChat" */;
+			buildConfigurationList = F51FC9782143A824001F9009 /* Build configuration list for PBXNativeTarget "Learn&Connect" */;
 			buildPhases = (
 				11658F26084370302D1978F1 /* [CP] Check Pods Manifest.lock */,
 				F51FC9622143A823001F9009 /* Sources */,
@@ -120,9 +147,9 @@
 			);
 			dependencies = (
 			);
-			name = ScaledroneChat;
+			name = "Learn&Connect";
 			productName = ScaledroneChatTest;
-			productReference = F51FC9662143A823001F9009 /* ScaledroneChat.app */;
+			productReference = F51FC9662143A823001F9009 /* Learn&Connect.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F51FC9612143A823001F9009 /* Build configuration list for PBXProject "ScaledroneChat" */;
+			buildConfigurationList = F51FC9612143A823001F9009 /* Build configuration list for PBXProject "Learn&Connect" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -153,7 +180,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F51FC9652143A823001F9009 /* ScaledroneChat */,
+				F51FC9652143A823001F9009 /* Learn&Connect */,
 			);
 		};
 /* End PBXProject section */
@@ -220,10 +247,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F51FC97C2143A8E5001F9009 /* Message.swift in Sources */,
-				F51FC96C2143A823001F9009 /* ViewController.swift in Sources */,
+				F51FC96C2143A823001F9009 /* ChildChatViewController.swift in Sources */,
 				F51FC96A2143A823001F9009 /* AppDelegate.swift in Sources */,
+				293EFAFD23E681C900230337 /* ParentChatViewController.swift in Sources */,
 				F51FC9802143AD46001F9009 /* ChatService.swift in Sources */,
+				2907F4A723E676A9005DC415 /* SecondScreenViewController.swift in Sources */,
+				2907F4A823E676A9005DC415 /* HomeViewController.swift in Sources */,
+				2907F4A923E676A9005DC415 /* ParentViewController.swift in Sources */,
+				2907F4A623E676A9005DC415 /* String.swift in Sources */,
 				F51FC97E2143AC63001F9009 /* Extensions.swift in Sources */,
+				2907F4AC23E676A9005DC415 /* ThirdScreenViewController.swift in Sources */,
+				2907F4AA23E676A9005DC415 /* ChildGameViewController.swift in Sources */,
+				2907F4AB23E676A9005DC415 /* ChildViewController.swift in Sources */,
+				293EFAFF23E6884500230337 /* ChildGamesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,13 +407,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/ScaledroneChat/Info.plist";
+				DEVELOPMENT_TEAM = 3V92N7Q9Y4;
+				INFOPLIST_FILE = "$(SRCROOT)/Learn&Connect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.scaledrone.ScaledroneChatTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "katelyn.zhang18-gmail.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -390,13 +426,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/ScaledroneChat/Info.plist";
+				DEVELOPMENT_TEAM = 3V92N7Q9Y4;
+				INFOPLIST_FILE = "$(SRCROOT)/Learn&Connect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.scaledrone.ScaledroneChatTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "katelyn.zhang18-gmail.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -406,7 +442,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F51FC9612143A823001F9009 /* Build configuration list for PBXProject "ScaledroneChat" */ = {
+		F51FC9612143A823001F9009 /* Build configuration list for PBXProject "Learn&Connect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F51FC9762143A824001F9009 /* Debug */,
@@ -415,7 +451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F51FC9782143A824001F9009 /* Build configuration list for PBXNativeTarget "ScaledroneChat" */ = {
+		F51FC9782143A824001F9009 /* Build configuration list for PBXNativeTarget "Learn&Connect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F51FC9792143A824001F9009 /* Debug */,

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ParentChatViewController.swift
 //  ScaledroneChatTest
 //
 //  Created by Marin Benčević on 08/09/2018.
@@ -9,7 +9,7 @@
 import UIKit
 import MessageKit
 
-class ViewController: MessagesViewController {
+class ParentChatViewController: MessagesViewController {
 
   var chatService: ChatService!
   var messages: [Message] = []
@@ -36,7 +36,7 @@ class ViewController: MessagesViewController {
 
 }
 
-extension ViewController: MessagesDataSource {
+extension ParentChatViewController: MessagesDataSource {
   func numberOfSections(in messagesCollectionView: MessagesCollectionView) -> Int {
     return messages.count
   }
@@ -62,7 +62,7 @@ extension ViewController: MessagesDataSource {
   }
 }
 
-extension ViewController: MessagesLayoutDelegate {
+extension ParentChatViewController: MessagesLayoutDelegate {
   func heightForLocation(message: MessageType,
                          at indexPath: IndexPath,
                          with maxWidth: CGFloat,
@@ -71,7 +71,7 @@ extension ViewController: MessagesLayoutDelegate {
   }
 }
 
-extension ViewController: MessagesDisplayDelegate {
+extension ParentChatViewController: MessagesDisplayDelegate {
   func configureAvatarView(
     _ avatarView: AvatarView,
     for message: MessageType,
@@ -84,7 +84,7 @@ extension ViewController: MessagesDisplayDelegate {
   }
 }
 
-extension ViewController: MessageInputBarDelegate {
+extension ParentChatViewController: MessageInputBarDelegate {
   func messageInputBar(
     _ inputBar: MessageInputBar,
     didPressSendButtonWith text: String) {
