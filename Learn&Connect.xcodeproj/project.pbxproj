@@ -14,6 +14,8 @@
 		2907F4AA23E676A9005DC415 /* ChildGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F4A223E676A8005DC415 /* ChildGameViewController.swift */; };
 		2907F4AB23E676A9005DC415 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F4A323E676A8005DC415 /* ChildViewController.swift */; };
 		2907F4AC23E676A9005DC415 /* ThirdScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F4A423E676A9005DC415 /* ThirdScreenViewController.swift */; };
+		293A097723E6A1E600AA9BB9 /* SubtractSevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A097623E6A1E600AA9BB9 /* SubtractSevenViewController.swift */; };
+		293A097923E6A80100AA9BB9 /* SubtractFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A097823E6A80100AA9BB9 /* SubtractFourViewController.swift */; };
 		293EFAFD23E681C900230337 /* ParentChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293EFAFC23E681C900230337 /* ParentChatViewController.swift */; };
 		293EFAFF23E6884500230337 /* ChildGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293EFAFE23E6884500230337 /* ChildGamesViewController.swift */; };
 		293EFB0323E6971D00230337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293EFB0223E6971D00230337 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 		2907F4A223E676A8005DC415 /* ChildGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildGameViewController.swift; path = ../../GIThackSC/Connect/ChildGameViewController.swift; sourceTree = "<group>"; };
 		2907F4A323E676A8005DC415 /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildViewController.swift; path = ../../GIThackSC/Connect/ChildViewController.swift; sourceTree = "<group>"; };
 		2907F4A423E676A9005DC415 /* ThirdScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdScreenViewController.swift; path = ../../GIThackSC/Connect/ThirdScreenViewController.swift; sourceTree = "<group>"; };
+		293A097623E6A1E600AA9BB9 /* SubtractSevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractSevenViewController.swift; sourceTree = "<group>"; };
+		293A097823E6A80100AA9BB9 /* SubtractFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractFourViewController.swift; sourceTree = "<group>"; };
 		293EFAFC23E681C900230337 /* ParentChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentChatViewController.swift; sourceTree = "<group>"; };
 		293EFAFE23E6884500230337 /* ChildGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildGamesViewController.swift; sourceTree = "<group>"; };
 		293EFB0223E6971D00230337 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 			children = (
 				F51FC9692143A823001F9009 /* AppDelegate.swift */,
 				293EFB0223E6971D00230337 /* Main.storyboard */,
+				293A097623E6A1E600AA9BB9 /* SubtractSevenViewController.swift */,
 				293EFB0423E69D0200230337 /* AddTenViewController.swift */,
 				F51FC96B2143A823001F9009 /* ChildChatViewController.swift */,
 				293EFAFC23E681C900230337 /* ParentChatViewController.swift */,
@@ -119,6 +124,7 @@
 				293EFAFE23E6884500230337 /* ChildGamesViewController.swift */,
 				2907F4A323E676A8005DC415 /* ChildViewController.swift */,
 				2907F4A023E676A8005DC415 /* HomeViewController.swift */,
+				293A097823E6A80100AA9BB9 /* SubtractFourViewController.swift */,
 				2907F4A123E676A8005DC415 /* ParentViewController.swift */,
 				2907F49F23E676A8005DC415 /* SecondScreenViewController.swift */,
 				2907F49E23E676A8005DC415 /* String.swift */,
@@ -252,6 +258,7 @@
 				293EFB0523E69D0200230337 /* AddTenViewController.swift in Sources */,
 				F51FC97C2143A8E5001F9009 /* Message.swift in Sources */,
 				F51FC96C2143A823001F9009 /* ChildChatViewController.swift in Sources */,
+				293A097923E6A80100AA9BB9 /* SubtractFourViewController.swift in Sources */,
 				F51FC96A2143A823001F9009 /* AppDelegate.swift in Sources */,
 				293EFAFD23E681C900230337 /* ParentChatViewController.swift in Sources */,
 				F51FC9802143AD46001F9009 /* ChatService.swift in Sources */,
@@ -261,6 +268,7 @@
 				2907F4A623E676A9005DC415 /* String.swift in Sources */,
 				F51FC97E2143AC63001F9009 /* Extensions.swift in Sources */,
 				2907F4AC23E676A9005DC415 /* ThirdScreenViewController.swift in Sources */,
+				293A097723E6A1E600AA9BB9 /* SubtractSevenViewController.swift in Sources */,
 				2907F4AA23E676A9005DC415 /* ChildGameViewController.swift in Sources */,
 				2907F4AB23E676A9005DC415 /* ChildViewController.swift in Sources */,
 				293EFAFF23E6884500230337 /* ChildGamesViewController.swift in Sources */,
